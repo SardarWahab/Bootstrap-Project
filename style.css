@@ -1,0 +1,46 @@
+.main{
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.7)),url(img/pexels-jim-de-ramos-395808-1263426.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+}
+/* .card{
+    margin-left: 100px;
+   
+} */
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+
+/* ==========================================
+    CUSTOM UTILS CLASSES
+  ========================================== */
+  body, html {
+    height: 100%;
+  }
